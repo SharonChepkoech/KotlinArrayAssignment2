@@ -13,6 +13,7 @@ fun prodIntArray(numbers: Array<Int>): Int{
     }
     return product
 }
+
 fun sumDecimal(type:Array<Any>): Double{
     var sum = 0.00
     type.forEach { num->
@@ -21,6 +22,7 @@ fun sumDecimal(type:Array<Any>): Double{
         }
     }
     return sum
+
 }
 fun returnCharArray(identity:Array<Any>): Int {
     var num = 0
